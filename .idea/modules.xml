@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/HomeShop.iml" filepath="$PROJECT_DIR$/HomeShop.iml" />
+      <module fileurl="file://$PROJECT_DIR$/applicationGestionFacture.iml" filepath="$PROJECT_DIR$/applicationGestionFacture.iml" />
     </modules>
   </component>
 </project>
