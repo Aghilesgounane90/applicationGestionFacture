@@ -5,10 +5,13 @@ public class Main  {
         Fridge fridge = new Fridge("BEKO TSE 1042 F", "Réfrigérateur BEKO 130L - Classe A+ - blanc", 189, 130, false);
 
         Customer customer = new Customer("Juste Leblanc", "19 rue Germain Pilon, Paris");
+        RelayDelivry delivery = new RelayDelivry(27);
+        Bill bill = new Bill(customer, delivery);
 
-        Bill bill = new Bill(customer);
-        bill.addProduct(cafe, 1);
-        bill.addProduct(tv, 1);
-        bill.addProduct(fridge, 1);
+        try {
+            bill.generate(new FileWriter("facture_leblanc"));
+        }catch (NoProductInBillException e){
+            System.err.println("Pas de produit dans la facture");
+        }
     }
 }
