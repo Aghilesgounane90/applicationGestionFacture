@@ -1,3 +1,7 @@
+package delivery;
+
+import delivery.Delivery;
+
 public class ExpressDelivery implements Delivery {
     private String city;
     public ExpressDelivery(String city) {

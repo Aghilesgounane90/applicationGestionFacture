@@ -1,3 +1,7 @@
+package delivery;
+
+import delivery.Delivery;
+
 public class RelayDelivry implements Delivery {
     private double number;
     public RelayDelivry(double number) {

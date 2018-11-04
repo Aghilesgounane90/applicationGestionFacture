@@ -1,3 +1,7 @@
+package delivery;
+
+import delivery.Delivery;
+
 public class DirectDelivery implements Delivery {
     @Override
     public double getPrice() {

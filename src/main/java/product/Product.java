@@ -1,3 +1,7 @@
+package product;
+
+import bill.Bill;
+
 public class Product {
     private String name;
     private String description;

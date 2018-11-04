@@ -1,3 +1,9 @@
+package bill;
+import costumer.Customer;
+import exeption.NoProductInBillException;
+import product.Product;
+import delivery.Delivery;
+import writer.Writer;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -7,7 +13,7 @@ public class Bill {
     private Delivery delivery;
     private HashMap<Product, Integer>products= new HashMap<Product, Integer>();
 
-    void addProduct(Product product, Integer quantity){
+    public void addProduct(Product product, Integer quantity){
         products.put(product,quantity);
     }
 

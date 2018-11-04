@@ -1,3 +1,5 @@
+package writer;
+
 public interface Writer {
     /**
      * Start writing process

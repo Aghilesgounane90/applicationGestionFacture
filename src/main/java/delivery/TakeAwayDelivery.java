@@ -1,3 +1,7 @@
+package delivery;
+
+import delivery.Delivery;
+
 public class TakeAwayDelivery implements Delivery {
     @Override
     public double getPrice() {

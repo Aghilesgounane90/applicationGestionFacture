@@ -1,3 +1,7 @@
+package bill;
+
+import product.Product;
+
 public class Television extends Product {
 
     public Television(String name, String description, double price, int size, String slabType) {

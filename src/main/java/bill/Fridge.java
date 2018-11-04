@@ -1,3 +1,7 @@
+package bill;
+
+import product.Product;
+
 public class Fridge extends Product {
 
     public Fridge(String name, String description, double price, int liter, boolean freezer) {

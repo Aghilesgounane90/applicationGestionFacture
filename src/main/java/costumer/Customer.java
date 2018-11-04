@@ -1,3 +1,4 @@
+package costumer;
 public class Customer {
     private String fullname;
     private String address;
