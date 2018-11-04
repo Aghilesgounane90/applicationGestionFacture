@@ -1,3 +1,6 @@
+
+import java.io.IOException;
+
 public class Main  {
     public static void main(String[] args) {
         Product cafe = new Product("Philips HD7866/61", "Philips SENSEO Quadrante, Noir - 1 ou 2 tasses", 79.99);
